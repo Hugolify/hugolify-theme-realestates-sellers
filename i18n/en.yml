@@ -1,0 +1,8 @@
+realestates_sellers:
+  all: All sellers
+  discover: Discover seller
+  latest: Latest sellers
+  more: Discover more sellers
+  title:
+    one: Seller
+    other: Sellers

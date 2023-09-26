@@ -1,0 +1,5 @@
+{{ with .GetTerms "realestates_sellers" }}
+  {{ range . }}
+    <p class="seller">{{ .Title }}</p>
+  {{ end }}
+{{ end }}

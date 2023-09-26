@@ -1,0 +1,8 @@
+realestates_sellers:
+  all: Tous les vendeurs
+  discover: Découvrir le vendeur
+  latest: Derniers vendeurs
+  more: Découvrir plus de vendeurs
+  title:
+    one: Vendeur
+    other: Vendeurs
