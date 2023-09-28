@@ -1,0 +1,9 @@
+{{ define "hero"}}
+  {{- partial "realestates_sellers/hero" . -}}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "realestates_sellers/schema" . }}
+  {{ partial "realestates_sellers/blocks" . }}
+  {{ partial "realestates_sellers/container" . }}
+{{ end }}

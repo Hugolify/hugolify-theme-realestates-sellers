@@ -1,0 +1,5 @@
+{{ $atf := true }}
+{{ if partial "func/HasImageHero" . }}
+  {{ $atf = false }}
+{{ end }}
+{{ partial "realestates_sellers/items" (dict "pages" .Pages.ByTitle "abovethefold" $atf) }}
