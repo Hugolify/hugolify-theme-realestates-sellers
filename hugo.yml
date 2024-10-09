@@ -16,3 +16,8 @@ permalinks:
   realestates_sellers: /realestates/sellers/:slug/
 taxonomies:
   realestates_seller: realestates_sellers
+
+params:
+  admin:
+    collections:
+      realestates_sellers: true
