@@ -20,4 +20,5 @@ taxonomies:
 params:
   admin:
     collections:
-      realestates_sellers: true
+      realestates_sellers:
+        enable: true
