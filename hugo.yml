@@ -13,12 +13,21 @@ module:
 
 # Default
 permalinks:
-  realestates_sellers: /realestates/sellers/:slug/
+  taxonomy:
+    realestates_sellers: /realestates/sellers/
+  term:
+    realestates_sellers: /realestates/sellers/:slug/
 taxonomies:
   realestates_seller: realestates_sellers
 
+# Admin
 params:
   admin:
     collections:
       realestates_sellers:
         enable: true
+        filter:
+          - field: isIndex
+            value: false
+        icon:
+          sveltiacms: gavel
