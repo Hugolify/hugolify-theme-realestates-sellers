@@ -30,4 +30,9 @@ params:
           - field: isIndex
             value: false
         icon:
-          sveltiacms: gavel
+          bootstrap_icons: hammer
+          iconoir: hammer
+          lucide: gavel
+          material_icons: gavel
+          material_symbols: gavel
+          sveltiacms: gavel # legacy
