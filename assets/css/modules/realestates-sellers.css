@@ -1,0 +1,5 @@
+/* css/modules/realestates-sellers.css — hugolify-theme-realestates-sellers entry point */
+
+/* Components */
+@import '../components/realestates-seller.css';
+@import '../components/realestates-sellers.css';
